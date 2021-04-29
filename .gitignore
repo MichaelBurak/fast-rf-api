@@ -1,6 +1,6 @@
 venv
 .idea
 __pycache__
-rf.pkl
+# rf.pkl
 .pytest_cache
 .env
