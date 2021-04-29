@@ -4,17 +4,17 @@
 
 ## Project Description
 
-- Uses a pickled sklearn RandomForestClassifier to classify based off of user input what type of Iris from the famous [Iris dataset](https://archive.ics.uci.edu/ml/datasets/iris) the values would correspond to and outputs the result.
-- Built to try out FastAPI(_I'm a fan now_), practice deploying machine learning models, Vue.js on the frontend, pytest with TravisCI(_see that neat badge?_) for basic tests with CI, and more. Generally where I'm trying out new things or brushing up on older stuff with a project-based approach by implementation.
+- Uses a pickled **sklearn** RandomForestClassifier to classify based off of user input what type of Iris from the famous [Iris dataset](https://archive.ics.uci.edu/ml/datasets/iris) the values would correspond to and outputs the result.
+- Built to try out **FastAPI**(_I'm a fan now_), practice deploying machine learning models, **Vue.js** on the frontend, **pytest** with **TravisCI**(_see that neat badge?_) for basic tests with CI, **Docker** as a deployment option/venue and more. Generally where I'm trying out new things or brushing up on older stuff with a project-based approach by implementation.
 
 ## Up Next
 
-- **Docker** properly set up and incorporated into deployment.
-- CD added to CI through **GitHub workflows/actions**.
-- **Prometheus** metrics of all things, I don't expect much traffic or anything but I want to test out traffic and the stack with **Grafana** on Heroku.
+- **GitHub workflows/actions**: to add CD to CI tests.
+- **Docker** set up for deployment to cloud and to scale(as if that's needed).
+- **Prometheus** metrics of all things, I don't expect much traffic or anything but I want to test out mocked traffic and the stack with **Grafana**.
 - **Better frontend**: really want to display a representative image conditionally of the classified flower, and more interactivity maybe.
+- **Client code as public-facing**: Get the Client code up on GitHub and implement best Vue.js practices because it's a _mess_.
 - **More tests, more routes, more functionality overall**: though this is limited by the scope of the project being "classifier with a frontend" after all.
-- Get the Client code up on GitHub and implement best Vue.js practices because it's a similar mess.
 
 ## Notes
 
