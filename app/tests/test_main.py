@@ -1,9 +1,9 @@
 import pytest
 from starlette.testclient import TestClient
 
-from main import app
+from app import main
 
-client = TestClient(app)
+client = TestClient(main.app)
 
 # tests prediction route with sample url param
 # @pytest.fixture(scope="module")
