@@ -1,3 +1,4 @@
+# language setting and version
 language: python
 python:
   - "3.7"
@@ -7,4 +8,3 @@ install:
 # command to run tests
 script:
   - python -m pytest
-  
