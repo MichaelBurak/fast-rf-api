@@ -1,6 +1,8 @@
 > # [FastAPI Random Forest Iris Dataset Classifier API](https://iris-classifier-client.netlify.app/)
->
+
 > ![Alt Text](https://i.imgur.com/Z44iCPY.png)
+
+> [![Build Status](https://travis-ci.com/MichaelBurak/fast-rf-api.svg?branch=main)](https://travis-ci.com/MichaelBurak/fast-rf-api)
 
 ## Project Description
 
