@@ -1,0 +1,6 @@
+venv
+.idea
+__pycache__
+rf.pkl
+.pytest_cache
+.env
